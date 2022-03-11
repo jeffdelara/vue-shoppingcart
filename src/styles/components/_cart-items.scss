@@ -1,0 +1,60 @@
+.shopping-cart {
+  padding: 1.5rem;
+  width: 320px;
+  margin: 0.5rem;
+  height: 500px;
+}
+
+.shopping-cart h2 {
+  margin-bottom: 1rem;
+}
+
+.small {
+  width: 60px;
+  height: 40px;
+  float: left;
+  margin-right: 0.8rem;
+}
+
+.cart-item {
+  background-color: white;
+  overflow: auto;
+  padding: 1rem 0.5rem;
+  text-align: left;
+  font-size: 1rem;
+  margin-top: 0.3rem;
+  box-shadow: 1px 1px 3px #aaa;
+  border-radius: 0.5rem;
+}
+
+.total {
+  background-color: coral;
+  margin-top: 0.3rem;
+  padding: 0.5rem 0rem;
+  font-weight: bold;
+  color: white;
+  box-shadow: 1px 1px 3px #aaa;
+}
+.price {
+  float: right;
+  color: coral;
+  font-weight: bolder;
+}
+
+button.remove {
+  background-color: white;
+  border: 0;
+  color: gray;
+  cursor: pointer;
+}
+
+button:hover {
+  text-decoration: underline;
+}
+
+.empty-cart {
+  background-color: #ddd;
+  border-radius: 0.5rem;
+  border: 2px dashed #ccc;
+  padding: 1.5rem;
+}
